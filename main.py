@@ -34,3 +34,7 @@ def main():
 
 if name == "main":
     main()
+
+def add_contact(name, phone):
+    contacts[name] = phone
+    print(f"Contact {name} added.")
